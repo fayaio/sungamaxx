@@ -1,3 +1,4 @@
+import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -19,6 +20,17 @@ export default function Home() {
                 alt="Sungamax Logo"
                 className="w-full h-auto"
               />
+            </div>
+            <div className="w-1/2" flex flex-col items-center self-center>
+              <AnimatedText
+                text="To elevate the spiritual and financial well-being of humanity."
+                className="!text-4xl !text-left"
+              />
+              <p>
+                We aim to provide high-impact easy business consultation, trade
+                and investment that contribute to the creation of wealth,
+                building the nation & assuring global well-being
+              </p>
             </div>
           </div>
         </Layout>
