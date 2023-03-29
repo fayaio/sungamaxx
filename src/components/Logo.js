@@ -9,13 +9,13 @@ const Logo = () => {
     <div className="flex items-center justify-center mt-2">
       <MotionLink
         href="/"
-        className="w-16 h-16 text-logo flex items-center justify-center text-2xl font-bold"
+        className="w-16 h-16 text-logo mr-9 flex items-center justify-center text-2xl font-bold"
         whileHover={{
           scale: 0.9,
           transition: { duration: 0.8 },
         }}
       >
-        Sungamax
+        SUNGAMAX
       </MotionLink>
     </div>
   );
