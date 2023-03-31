@@ -74,7 +74,14 @@ const about = () => {
 
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-darkGrey" />
-              <Image src={lightBulb} alt="Sungamax" className="w-full h-auto" />
+              <Image
+                src={lightBulb}
+                alt="Sungamax"
+                className="w-full h-auto"
+                sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+              />
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between">
               <div className="flex flex-col items-end justify-center text-logo">
