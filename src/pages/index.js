@@ -41,13 +41,13 @@ export default function Home() {
                   Who We Are
                   <LinkArrow className={'w-5 ml-1'} />
                 </Link>
-                <Link
+                {/* <Link
                   href="/contact"
                   target={'_blank'}
                   className="ml-4 text-lg font-medium capitalize text-pcolor underline"
                 >
                   Contact
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

@@ -29,10 +29,10 @@ const navbar = () => {
 
       <nav>
         <CustomLink href="/" title="Home" className="mr-4" />
-        <CustomLink href="/consultancy" title="Consultancy" className="mx-4" />
-        <CustomLink href="/logistics" title="Logistics" className="mx-4" />
-        <CustomLink href="/shoevilla" title="Shoe Villa" className="mx-4" />
-        <CustomLink href="/kkmarket" title="KK Market" className="ml-4" />
+        <CustomLink href="#" title="Consultancy" className="mx-4" />
+        <CustomLink href="#" title="Logistics" className="mx-4" />
+        <CustomLink href="#" title="Shoe Villa" className="mx-4" />
+        <CustomLink href="#" title="KK Market" className="ml-4" />
       </nav>
     </header>
   );
