@@ -5,13 +5,14 @@ import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
+import Impacts from '@/components/Impacts';
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
 
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, { duration: 3000 });
-  const isInView = useInView({ ref });
+  const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
     if (isInView) {
@@ -21,7 +22,9 @@ const AnimatedNumbers = ({ value }) => {
 
   useEffect(() => {
     springValue.on('change', (latest) => {
-      console.log(latest);
+      if (ref.current && latest.toFixed(0) <= value) {
+        ref.current.textContent = latest.toFixed(0);
+      }
     });
   }, [springValue, value]);
 
@@ -35,8 +38,7 @@ const about = () => {
         <title>Sungamax | About Us </title>
         <meta
           name="description"
-          content="Who We Are
-To be the leading force for building and developing sustainable and impactful businesses"
+          content="Who We Are -To be the leading force for building and developing sustainable and impactful businesses"
         />
       </Head>
       <main className="flex  w-full flex-col items-center justify-center ">
@@ -76,27 +78,35 @@ To be the leading force for building and developing sustainable and impactful bu
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between">
               <div className="flex flex-col items-end justify-center text-logo">
-                <span className="inline-block text-7xl font-bold">3+</span>
+                <span className="inline-block text-7xl  font-bold ">
+                  <AnimatedNumbers value={50} /> +
+                </span>
                 <h2 className="text-xl font-medium capitalize text-pcolor">
-                  sungamax businesses
+                  satisfied clients
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center text-logo">
-                <span className="inline-block text-7xl font-bold">5+</span>
+                <span className="inline-block text-7xl font-bold">
+                  <AnimatedNumbers value={5} /> +
+                </span>
                 <h2 className="text-xl font-medium capitalize text-pcolor">
                   aimed impacts
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center text-logo">
-                <span className="inline-block text-7xl  font-bold ">50+</span>
+                <span className="inline-block text-7xl font-bold">
+                  <AnimatedNumbers value={3} /> +
+                </span>
                 <h2 className="text-xl font-medium capitalize text-pcolor">
-                  satisfied clients
+                  sungamax businesses
                 </h2>
               </div>
             </div>
           </div>
+
+          <Impacts />
         </Layout>
       </main>
     </>
