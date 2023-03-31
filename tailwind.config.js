@@ -18,6 +18,15 @@ module.exports = {
         primary: '#B63E96', // 240,86,199
         primaryDark: '#58E6D9', // 80,230,217
         logo: '#793d77',
+        darkGrey: '#3e3e3f',
+        darkPink: '#d73640',
+        darkPurple: '#772974',
+        lightPurple: '#9a2b81',
+        footerbg: '#EFEFEF',
+        pcolor: '#7B7A7A',
+      },
+      animation: {
+        'spin-slow': 'spin 9s linear infinite',
       },
     },
   },

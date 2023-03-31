@@ -11,7 +11,7 @@ const CustomLink = ({ href, title, className = '' }) => {
       {title}
 
       <span
-        className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5
+        className={`h-[1px] inline-block bg-lightPurple absolute left-0 -bottom-0.5
         group-hover:w-full transition-[width] ease duration-300
         ${router.asPath === href ? 'w-full' : 'w-0'}
         `}
@@ -24,18 +24,15 @@ const CustomLink = ({ href, title, className = '' }) => {
 
 const navbar = () => {
   return (
-    <header className="w-full px-32 py-2 font-medium flex items-center justify-between">
+    <header className="w-full px-32 py-2  text-logo font-medium flex items-center justify-between">
       <Logo />
 
       <nav>
         <CustomLink href="/" title="Home" className="mr-4" />
-        <CustomLink href="/about" title="About Us" className="mx-4" />
-        <CustomLink href="/contact" title="Contact Us" className="mx-4" />
-        <CustomLink
-          href="/properties"
-          title="Our Properties"
-          className="ml-4"
-        />
+        <CustomLink href="/consultancy" title="Consultancy" className="mx-4" />
+        <CustomLink href="/logistics" title="Logistics" className="mx-4" />
+        <CustomLink href="/shoevilla" title="Shoe Villa" className="mx-4" />
+        <CustomLink href="/kkmarket" title="KK Market" className="ml-4" />
       </nav>
     </header>
   );
