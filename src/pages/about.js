@@ -42,7 +42,7 @@ const about = () => {
         />
       </Head>
       <main className="flex  w-full flex-col items-center justify-center ">
-        <Layout className="pt-12">
+        <Layout className="pt-12 ">
           <AnimatedText text="We Have The Edge !" className="mb-16" />
           <div className="grid w-full grid-cols-8 gap-16">
             <div className="col-span-3 flex flex-col items-start justify-start">

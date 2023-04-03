@@ -58,9 +58,19 @@ const NavBar = () => {
   };
 
   return (
-    <header className="w-full px-32 py-2  text-logo font-medium flex items-center justify-between relative">
+    <header
+      className="w-full px-28 py-2  text-logo font-medium flex items-center justify-between relative lg:px-13 lg:py-2 sm:px-10 
+    sm:py-2
+    "
+    >
+      {/* Sungamax Heading */}
+      <div className="flex  mr-[40px] sm:ml-[40px]">
+        <Logo />
+      </div>
+
+      {/* Hamburger Menu */}
       <button
-        className="flex-col justify-center items-center hidden lg:flex"
+        className="flex-col justify-center items-center hidden  lg:flex lg:items-end "
         onClick={handleClick}
       >
         <span
@@ -79,12 +89,10 @@ const NavBar = () => {
           } `}
         ></span>
       </button>
-      <div className="flex flex-end mr-9">
-        <Logo />
-      </div>
 
-      <div className="w-full flex flex-col justify-between items-end lg:hidden">
-        <nav className="flex ml-7">
+      {/* Nav Menu */}
+      <div className="w-full flex flex-col justify-end items-end lg:hidden">
+        <nav className="flex ml-[120px] pl-8">
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="#" title="Consultancy" className="mx-4" />
           <CustomLink href="#" title="Logistics" className="mx-4" />
