@@ -64,7 +64,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center xxs:flex-col  lg:pb-10">
                 <Link
-                  href="/about"
+                  href="/"
                   className="flex items-center bg-lightPurple text-light p-2.5  rounded-lg text-lg font-semibold
                    hover:bg-light hover:text-darkGrey border-2 border-solid border-transparent hover:border-lightPurple
                    mr-3"
