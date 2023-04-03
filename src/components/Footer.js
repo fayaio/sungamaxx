@@ -5,11 +5,11 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer
-      className="w-full border-t-2 border-solid
-    text-lg
+      className="w-full  mt-auto border-t-2 border-solid
+    text-lg 
     "
     >
-      <Layout className="py-8 flex text-darkgrey bg-footerbg items-center justify-between  font-light text-base font-mont">
+      <Layout className="py-8 !flex !text-center! h-fit text-darkgrey bg-footerbg !items-center justify-between !self-center  text-pcolor text-base font-mont">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved </span>
 
         <Link href="/">Sungamax Nigeria Ltd</Link>
