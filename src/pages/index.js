@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import sungamaxLogo from '../../public/images/logos/sungamaxlogo.png';
-import { LinkArrow } from '@/components/Icons';
+import NavBar from '../components/NavBar';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <title>Sungamax</title>
         <meta
           name="description"
-          content="To Elevate The Spiritual And Financial Well-Being Of Humanity"
+          content="Elevate The Spiritual And Financial Well-Being Of Humanity"
         />
         <link
           rel="apple-touch-icon"
@@ -36,10 +36,11 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <main className="flex items-center m-auto text-dark w-[80%]  ">
+
+      <main className=" items-center m-auto text-dark w-[95%]  ">
         <Layout className="!flex !p-0 items-center justify-center !h-fit">
           <div className="flex items-center justify-between   lg:!flex-col ">
-            <div className="w-[50%] p-10  lg:w-[60%] sm:w-[90%]">
+            <div className="w-[40%] p-10  lg:w-[60%] sm:w-[90%]">
               <Image
                 src={sungamaxLogo}
                 alt="Sungamax Logo"
@@ -50,34 +51,160 @@ export default function Home() {
                 // 33vw"
               />
             </div>
-            <div className="w-[50%] flex flex-col items-center self-center lg:w-[80%] lg:!text-center  sm:w-[90%]">
+            <div className="w-[60%] flex flex-col items-center self-center lg:w-[80%] lg:!text-center  sm:w-[90%]">
               <h1
-                className="w-full text-darkPurple font-bold capitalize !text-5xl !text-left xl:!text-4xl 
+                className="w-full text-darkPurple font-extrabold !text-6xl !text-left xl:!text-4xl 
                 lg:!text-center sm:!text-3xl "
               >
-                To elevate the spiritual and financial well-being of humanity
+                Elevate Your Spiritual And Financial Well-Being
               </h1>
-              <p className="my-4 text-base text-pcolor font-medium lg:my-8">
-                We aim to provide high-impact easy business consultation, trade
-                and investment that contribute to the creation of wealth,
-                building the nation & assuring global well-being
+              <p className="mt-7 text-[23px] text-darkGrey font-semi-bold lg:my-8">
+                From Business Services To Trade & Investment Opportunties. We
+                Are Your Reliable Partner In Developing Businessess And People
               </p>
-              <div className="flex items-center self-start mt-2 lg:self-center xxs:flex-col  lg:pb-10">
-                <Link
-                  href="/"
-                  className="flex items-center bg-lightPurple text-light p-2.5  rounded-lg text-lg font-semibold
-                   hover:bg-light hover:text-darkGrey border-2 border-solid border-transparent hover:border-lightPurple
-                   mr-3"
-                >
-                  Who We Are
-                </Link>
-                <Link
-                  href="/contact"
-                  target={'_blank'}
-                  className="ml-4 text-lg font-medium capitalize text-pcolor underline xxs:pt-5 xxs:!ml-0 "
-                >
-                  Contact
-                </Link>
+
+              <h1
+                className="w-full text-primary font-sans  mt-7 font-bold capialize !text-3xl !text-left xl:!text-4xl 
+                lg:!text-center sm:!text-3xl "
+              >
+                Business Divisions
+              </h1>
+              <div className="my-4 text-lg text-darkGrey font-medium lg:my-8 flex gap-14 self-start">
+                <ul className="">
+                  <li className="mb-5 flex  hover:animate-bounce">
+                    <span className=" text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+
+                    <Link
+                      href="/contact"
+                      // target={'_blank'}
+                      className="pl-2 hover:animate-pulse"
+                    >
+                      Sungamax Consultancy
+                    </Link>
+                  </li>
+                  <li className="mb-5 flex hover:animate-bounce">
+                    <span className=" text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+
+                    <Link
+                      href="/contact"
+                      // target={'_blank'}
+                      className="pl-2 hover:animate-pulse"
+                    >
+                      Sungamax Shoe Villa
+                    </Link>
+                  </li>
+                  <li className="mb-5 flex  hover:animate-bounce">
+                    <span className=" text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+
+                    <Link
+                      href="/contact"
+                      // target={'_blank'}
+                      className="pl-2 hover:animate-pulse"
+                    >
+                      Sungamax Transportation and Logistics
+                    </Link>
+                  </li>
+                </ul>
+
+                <ul className="px-2">
+                  <li className="mb-5 flex hover:animate-bounce">
+                    <span className=" text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+
+                    <Link
+                      href="/contact"
+                      // target={'_blank'}
+                      className="pl-2 hover:animate-pulse"
+                    >
+                      Sungamax KK Market (SKK Market)
+                    </Link>
+                  </li>
+                  <li className="mb-5 flex hover:animate-bounce">
+                    <span className=" text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
+                    </span>
+
+                    <Link
+                      href="/contact"
+                      // target={'_blank'}
+                      className="pl-2 hover:animate-pulse"
+                    >
+                      Sungamax BioNata (SkinCare Solutions)
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

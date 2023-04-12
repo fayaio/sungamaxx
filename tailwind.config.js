@@ -39,7 +39,16 @@ module.exports = {
       lg: { max: '1062px' },
       // => @media (max-width: 1062px) { ... }
 
-      md: { max: '767px' },
+      lmg: { min: '1062px' },
+      // => @media (min-width: 1062px) { ... }
+
+      mrd: { max: '915px' },
+      // => @media (max-width: 905px) { ... }
+
+      md: { max: '780px' },
+      // => @media (max-width: 767px) { ... }
+
+      msd: { min: '780px' },
       // => @media (max-width: 767px) { ... }
 
       sm: { max: '675px' },
@@ -48,7 +57,7 @@ module.exports = {
       xs: { max: '479px' },
       // => @media (max-width: 479px) { ... }
 
-      xxs: { max: '375px' },
+      xxs: { max: '389px' },
       // => @media (max-width: 375px) { ... }
     },
   },

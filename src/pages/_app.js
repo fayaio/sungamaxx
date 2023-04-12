@@ -3,6 +3,8 @@ import { Montserrat } from 'next/font/google';
 import Head from 'next/head';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/Footer';
+import NavBar from '../components/NavBar';
+import Script from 'next/script';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -44,10 +46,19 @@ export default function App({ Component, pageProps }) {
       <main
         className={`${montserrat.variable} font-mont bg-light w-full min-h-screen flex flex-col`}
       >
-        <Navbar />
+        <NavBar />
         <Component {...pageProps} />
         <Footer />
       </main>
+
+      <Script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></Script>
+      <Script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></Script>
     </>
   );
 }

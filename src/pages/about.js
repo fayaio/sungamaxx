@@ -41,11 +41,17 @@ const about = () => {
           content="Who We Are -To be the leading force for building and developing sustainable and impactful businesses"
         />
       </Head>
-      <main className="flex  w-full flex-col items-center justify-center ">
-        <Layout className="pt-12 ">
-          <AnimatedText text="We Have The Edge !" className="mb-16" />
-          <div className="grid w-full grid-cols-8 gap-16">
-            <div className="col-span-3 flex flex-col items-start justify-start">
+      <main className="  w-full flex-col items-center justify-center ">
+        <Layout className="pt-10   mrd:!p-9 !flex flex-col self-center justify-center items-center  ">
+          <h1
+            className=" w-full flex justify-center self-center text-darkPurple font-bold capitalize !text-6xl text-center mb-16
+          lg:!text-5xl  md:!text-4xl
+          "
+          >
+            We Have The Edge
+          </h1>
+          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
+            <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-lightPurple/75">
                 Who We Are
               </h2>
@@ -72,41 +78,46 @@ const about = () => {
               </p>
             </div>
 
-            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
+            <div
+              className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 xl:col-span-4
+            md:order-1 md:col-span-8  md:mx-[40px] 
+            "
+            >
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-darkGrey" />
               <Image
                 src={lightBulb}
                 alt="Sungamax"
-                className="w-full h-auto"
+                className="w-full h-[40vh]  "
                 sizes="(max-width: 768px) 100vw,
-              (max-width: 1200px) 50vw,
-              33vw"
+                (max-width: 1200px) 50vw,
+                33vw"
               />
             </div>
-            <div className="col-span-2 flex flex-col items-end justify-between">
-              <div className="flex flex-col items-end justify-center text-logo">
-                <span className="inline-block text-7xl  font-bold ">
+
+            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
+              <div className="flex flex-col items-end justify-center text-logo xl:items-center">
+                <span className="inline-block text-7xl  font-bold  mrd:text-6xl sm:text-4xl">
                   <AnimatedNumbers value={50} /> +
                 </span>
-                <h2 className="text-xl font-medium capitalize text-pcolor">
+                <h2 className="text-xl font-medium capitalize text-pcolor xl:text-center mrd:text-lg sm:text-base xs:text-sm">
                   satisfied clients
                 </h2>
               </div>
 
-              <div className="flex flex-col items-end justify-center text-logo">
-                <span className="inline-block text-7xl font-bold">
+              <div className="flex flex-col items-end justify-center text-logo xl:items-center">
+                <span className="inline-block text-7xl font-bold  mrd:text-6xl sm:text-4xl">
                   <AnimatedNumbers value={5} /> +
                 </span>
-                <h2 className="text-xl font-medium capitalize text-pcolor">
+                <h2 className="text-xl font-medium capitalize text-pcolor xl:text-center mrd:text-lg sm:text-base xs:text-sm">
                   aimed impacts
                 </h2>
               </div>
 
-              <div className="flex flex-col items-end justify-center text-logo">
-                <span className="inline-block text-7xl font-bold">
+              <div className="flex flex-col items-end justify-center text-logo xl:items-center">
+                <span className="inline-block text-7xl font-bold  mrd:text-6xl sm:text-4xl">
                   <AnimatedNumbers value={3} /> +
                 </span>
-                <h2 className="text-xl font-medium capitalize text-pcolor">
+                <h2 className="text-xl font-medium capitalize text-pcolor xl:text-center mrd:text-lg sm:text-base xs:text-sm">
                   sungamax businesses
                 </h2>
               </div>
