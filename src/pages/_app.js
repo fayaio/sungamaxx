@@ -1,7 +1,6 @@
 import '@/styles/globals.css';
 import { Montserrat } from 'next/font/google';
 import Head from 'next/head';
-import Navbar from '@/components/navbar';
 import Footer from '@/components/Footer';
 import NavBar from '../components/NavBar';
 import Script from 'next/script';

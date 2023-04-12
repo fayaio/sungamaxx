@@ -59,7 +59,7 @@ module.exports = {
       xs: { max: '670px' },
       // => @media (max-width: 479px) { ... }
 
-      xxs: { max: '389px' },
+      xxs: { max: '400px' },
       // => @media (max-width: 375px) { ... }
     },
   },

@@ -54,11 +54,11 @@ export default function Home() {
             <div className="w-[60%] flex flex-col items-center self-center lg:w-[95%]  lg:!text-center  sm:w-[100%]">
               <h1
                 className="w-full text-darkPurple font-extrabold !text-6xl !text-left xl:!text-5xl 
-                lg:!text-center sm:!text-4xl "
+                lg:!text-center xs:!text-3xl  xxs:!text-2xl"
               >
                 Elevate Your Spiritual And Financial Well-Being
               </h1>
-              <p className="mt-7 text-[23px] text-darkGrey font-mont font-semi-bold lg:my-8">
+              <p className="mt-7 text-[23px] text-darkGrey font-mont font-semi-bold lg:my-8 xs:!text-base xs:mt-4 ">
                 From Business Services To Trade & Investment Opportunties. We
                 Are Your Reliable Partner In Developing Businessess And People
               </p>
