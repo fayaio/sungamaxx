@@ -53,10 +53,10 @@ module.exports = {
       msd: { min: '1000px' },
       // => @media (max-width: 767px) { ... }
 
-      sm: { max: '675px' },
+      sm: { max: '760px' },
       // => @media (max-width: 675px) { ... }
 
-      xs: { max: '479px' },
+      xs: { max: '670px' },
       // => @media (max-width: 479px) { ... }
 
       xxs: { max: '389px' },

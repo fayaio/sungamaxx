@@ -40,7 +40,7 @@ export default function Home() {
       <main className=" items-center m-auto text-dark w-[92%]  ">
         <Layout className="!flex !p-0 items-center justify-center !h-fit">
           <div className="flex items-center justify-between   lg:!flex-col ">
-            <div className="w-[40%] p-10  lg:w-[60%] sm:w-[90%]">
+            <div className="w-[40%] p-10  lg:w-[60%] sm:w-[95%]">
               <Image
                 src={sungamaxLogo}
                 alt="Sungamax Logo"
@@ -51,10 +51,10 @@ export default function Home() {
                 // 33vw"
               />
             </div>
-            <div className="w-[60%] flex flex-col items-center self-center lg:w-[95%]  lg:!text-center  sm:w-[90%]">
+            <div className="w-[60%] flex flex-col items-center self-center lg:w-[95%]  lg:!text-center  sm:w-[100%]">
               <h1
                 className="w-full text-darkPurple font-extrabold !text-6xl !text-left xl:!text-5xl 
-                lg:!text-center sm:!text-3xl "
+                lg:!text-center sm:!text-4xl "
               >
                 Elevate Your Spiritual And Financial Well-Being
               </h1>
@@ -64,13 +64,16 @@ export default function Home() {
               </p>
 
               <h1
-                className="w-full text-primary font-sans !pt-10  xl:mt-3 font-bold capialize !text-4xl !text-left xl:!text-[28px] 
-                lg:!text-center sm:!text-2xl "
+                className="w-full text-primary font-sans !pt-10  mrd:!pt-3 font-bold capialize !text-4xl !text-left xl:!text-[28px] 
+                lg:!text-center sm:!text-2xl sm:!text-left"
               >
                 Business Divisions
               </h1>
-              <div className="my-4 text-lg text-darkGrey font-medium lg:my-8 flex gap-14 self-start xl:justify-center xl:self-center xl:gap-2 sm:flex-col">
-                <ul className="">
+              <div
+                className="my-4 text-lg text-darkGrey font-medium lg:my-8 flex gap-14 self-start  
+              xl:gap-18 sm:gap-3 xs:flex-col"
+              >
+                <ul className="text-left">
                   <li className="mb-5 flex  hover:animate-bounce">
                     <span className=" text-primary">
                       <svg
@@ -151,7 +154,7 @@ export default function Home() {
                   </li>
                 </ul>
 
-                <ul className="px-2">
+                <ul className=" sm:px-0  text-left">
                   <li className="mb-5 flex hover:animate-bounce">
                     <span className=" text-primary">
                       <svg
@@ -173,10 +176,10 @@ export default function Home() {
                     <Link
                       href="/contact"
                       // target={'_blank'}
-                      className="pl-2 hover:animate-pulse"
+                      className="pl-2   hover:animate-pulse"
                     >
                       Sungamax KK Market{' '}
-                      <span className="xl:flex">(SKK Market)</span>
+                      <span className="mrd:flex xs:inline">(SKK Market)</span>
                     </Link>
                   </li>
                   <li className="mb-5 flex hover:animate-bounce">
@@ -200,10 +203,12 @@ export default function Home() {
                     <Link
                       href="/contact"
                       // target={'_blank'}
-                      className="pl-2 hover:animate-pulse"
+                      className="pl-2 xxs:!mr-12 hover:animate-pulse"
                     >
                       Sungamax BioNata{' '}
-                      <span className="xl:flex ">(SkinCare Solutions)</span>
+                      <span className="mrd:flex  xs:inline">
+                        (SkinCare Solutions)
+                      </span>
                     </Link>
                   </li>
                 </ul>
