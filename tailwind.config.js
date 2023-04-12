@@ -35,6 +35,8 @@ module.exports = {
 
       xl: { max: '1279px' },
       // => @media (max-width: 1279px) { ... }
+      xrl: { min: '1279px' },
+      // => @media (min-width: 1279px) { ... }
 
       lg: { max: '1062px' },
       // => @media (max-width: 1062px) { ... }
@@ -45,10 +47,10 @@ module.exports = {
       mrd: { max: '915px' },
       // => @media (max-width: 905px) { ... }
 
-      md: { max: '780px' },
+      md: { max: '1000px' },
       // => @media (max-width: 767px) { ... }
 
-      msd: { min: '780px' },
+      msd: { min: '1000px' },
       // => @media (max-width: 767px) { ... }
 
       sm: { max: '675px' },
