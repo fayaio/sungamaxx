@@ -51,27 +51,27 @@ export default function Home() {
                 // 33vw"
               />
             </div>
-            <div className="w-[60%] flex flex-col items-center self-center lg:w-[95%]  lg:!text-center  sm:w-[100%]">
+            <div className="w-[60%] flex flex-col items-center self-center lg:w-[95%]  lg:!text-center  sm:w-[90%]">
               <h1
                 className="w-full text-darkPurple font-extrabold !text-6xl !text-left xl:!text-5xl 
-                lg:!text-center xs:!text-3xl  xxs:!text-2xl"
+                lg:!text-center sm:!text-4xl xs:!text-3xl  xxs:!text-2xl"
               >
                 Elevate Your Spiritual And Financial Well-Being
               </h1>
-              <p className="mt-7 text-[23px] text-darkGrey font-mont font-semi-bold lg:my-8 xs:!text-base xs:mt-4 ">
+              <p className="mt-7 text-[23px] text-darkGrey font-mont font-semi-bold lg:my-8 xs:!text-[17px] xs:mt-4 ">
                 From Business Services To Trade & Investment Opportunties. We
                 Are Your Reliable Partner In Developing Businessess And People
               </p>
 
               <h1
                 className="w-full text-primary font-sans !pt-10  mrd:!pt-3 font-bold capialize !text-4xl !text-left xl:!text-[28px] 
-                lg:!text-center sm:!text-2xl sm:!text-left"
+                lg:!text-center sm:!text-xl sm:!text-left"
               >
                 Business Divisions
               </h1>
               <div
                 className="my-4 text-lg text-darkGrey font-medium lg:my-8 flex gap-14 self-start  
-              xl:gap-18 sm:gap-3 xs:flex-col"
+              xl:gap-18 sm:gap-3 xs:flex-col xs:text-base"
               >
                 <ul className="text-left">
                   <li className="mb-5 flex  hover:animate-bounce">
