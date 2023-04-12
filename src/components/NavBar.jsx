@@ -56,12 +56,16 @@ const DaisyNavBar = () => {
           bg-light
           absolute
           w-full h-full bottom-0
+          
           py-24 pl-5 duration-500 ${isOpen ? 'left-0' : 'left-[-100%]'}
         `}
         >
           <NavLinks />
           <li className="">
-            <Link href={'/'} className="py-7 px-3 inline-block uppercase ">
+            <Link
+              href={'/'}
+              className="py-7 px-3 inline-block uppercase sm:!text-base "
+            >
               Contact
             </Link>
           </li>

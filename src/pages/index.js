@@ -149,12 +149,13 @@ export default function Home() {
                       // target={'_blank'}
                       className="pl-2 hover:animate-pulse"
                     >
-                      Sungamax Transportation and Logistics
+                      Sungamax KK Market{' '}
+                      <span className="mrd:flex xs:inline">(SKK Market)</span>
                     </Link>
                   </li>
                 </ul>
 
-                <ul className=" sm:px-0  text-left">
+                <ul className=" sm:px-0 sm:-mt-3 text-left">
                   <li className="mb-5 flex hover:animate-bounce">
                     <span className=" text-primary">
                       <svg
@@ -178,8 +179,10 @@ export default function Home() {
                       // target={'_blank'}
                       className="pl-2   hover:animate-pulse"
                     >
-                      Sungamax KK Market{' '}
-                      <span className="mrd:flex xs:inline">(SKK Market)</span>
+                      Sungamax BioNata
+                      <span className="mrd:flex  xs:inline">
+                        (SkinCare Solutions)
+                      </span>
                     </Link>
                   </li>
                   <li className="mb-5 flex hover:animate-bounce">
@@ -205,10 +208,7 @@ export default function Home() {
                       // target={'_blank'}
                       className="pl-2 xxs:!mr-12 hover:animate-pulse"
                     >
-                      Sungamax BioNata{' '}
-                      <span className="mrd:flex  xs:inline">
-                        (SkinCare Solutions)
-                      </span>
+                      Sungamax Transportation and Logistics
                     </Link>
                   </li>
                 </ul>
