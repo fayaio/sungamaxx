@@ -58,14 +58,14 @@ export default function Home() {
               >
                 Elevate Your Spiritual And Financial Well-Being
               </h1>
-              <p className="mt-7 text-[23px] text-darkGrey font-mont font-semi-bold lg:my-8 xs:!text-[17px] xs:mt-4 ">
+              <p className="mt-7 text-[18px] text-darkGrey font-mont font-semi-bold lg:my-8 xs:!text-[17px] xs:mt-4 ">
                 From Business Services To Trade & Investment Opportunties. We
                 Are Your Reliable Partner In Developing Businessess And People
               </p>
 
               <h1
-                className="w-full text-primary font-sans !pt-10  mrd:!pt-3 font-bold capialize !text-4xl !text-left xl:!text-[28px] 
-                lg:!text-center sm:!text-xl sm:!text-left"
+                className="w-full text-primary !pt-10  mrd:!pt-3  capialize !text-5xl !text-left xl:!text-[28px] 
+                lg:!text-center sm:!text-xl sm:!text-left font-serif font-extrabold"
               >
                 Business Divisions
               </h1>
@@ -149,7 +149,7 @@ export default function Home() {
                       // target={'_blank'}
                       className="pl-2 hover:animate-pulse"
                     >
-                      Sungamax KK Market{' '}
+                      Sungamax KK Market
                       <span className="mrd:flex xs:inline">(SKK Market)</span>
                     </Link>
                   </li>

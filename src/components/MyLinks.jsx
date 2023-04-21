@@ -74,6 +74,10 @@ export const links = [
             link: '/',
           },
           {
+            name: 'Human Capital Development',
+            link: '/',
+          },
+          {
             name: 'Diversity And Inclusion',
             link: '/',
           },
