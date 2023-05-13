@@ -7,19 +7,19 @@ export const links = [
         sublink: [
           {
             name: 'Who We Are',
-            link: '/',
-          },
-          {
-            name: 'Mission',
-            link: '/',
+            link: '/about#who-we-are',
           },
           {
             name: 'Vision',
-            link: '/',
+            link: '/about#vision',
+          },
+          {
+            name: 'Mission',
+            link: '/about#mission',
           },
           {
             name: 'Values',
-            link: '/',
+            link: '/about#values',
           },
         ],
       },
@@ -63,27 +63,27 @@ export const links = [
         sublink: [
           {
             name: 'Environmental Impact',
-            link: '/',
+            link: '/impact#environmental-impact',
           },
           {
             name: 'Socioeconomic Impact',
-            link: '/',
+            link: '/impact#socioeconomic-impact',
           },
           {
             name: 'People And Culture',
-            link: '/',
+            link: '/impact#people&culture',
           },
           {
             name: 'Human Capital Development',
-            link: '/',
+            link: '/impact#human-capital-development',
           },
           {
             name: 'Diversity And Inclusion',
-            link: '/',
+            link: '/impact#diversity&inclusion',
           },
           {
             name: 'Economic Empowerment',
-            link: '/',
+            link: '/impact#economic-empowerment',
           },
         ],
       },

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+.envsec-img {
+  background-image: url('../../public/images/svgs/envsection.svg');
+  object-fit: cover;
+}
+.pplsec-img {
+  background-image: url('../../public/images/svgs/pplnculsection.svg');
+  object-fit: cover;
+}
+
+.diversec-img {
+  background-image: url('../../public/images/svgs/diversitysection.svg');
+  object-fit: cover;
+}

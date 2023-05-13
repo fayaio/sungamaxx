@@ -15,7 +15,7 @@ const DaisyNavBar = () => {
   };
 
   return (
-    <nav className="bg-light ">
+    <nav className="bg-whitee  z-50 sticky top-0">
       <div className="flex self-end justify-between font-medium ">
         <div className="pl-16 z-50 md:w-full md:pl-6 md:flex md:justify-between">
           <Logo />
@@ -41,7 +41,10 @@ const DaisyNavBar = () => {
         <ul className=" flex mr-12  gap-8 text-logo text-[15.7px]  md:hidden font-semibold">
           <NavLinks />
           <li className="">
-            <Link href={'/'} className="py-7 px-3 inline-block uppercase">
+            <Link
+              href={'/contact'}
+              className="py-7 px-3 inline-block uppercase"
+            >
               Contact
             </Link>
           </li>
@@ -53,9 +56,10 @@ const DaisyNavBar = () => {
           text-logo
           text-lg
           msd:hidden
-          bg-light
+          bg-whitee
           absolute
-          w-full h-full bottom-0
+          w-full
+          h-fit
           
           py-24 pl-5 duration-500 ${isOpen ? 'left-0' : 'left-[-100%]'}
         `}
@@ -63,7 +67,7 @@ const DaisyNavBar = () => {
           <NavLinks />
           <li className="">
             <Link
-              href={'/'}
+              href={'/contact'}
               className="py-7 px-3 inline-block uppercase sm:!text-base "
             >
               Contact

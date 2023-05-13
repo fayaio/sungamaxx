@@ -1,19 +1,27 @@
 /** @type {import('tailwindcss').Config} */
 
+const { Crimson_Pro, Quattrocento } = require('next/font/google');
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
     // Or if using `src` directory:
     './src/**/*.{js,ts,jsx,tsx}',
+    './node_modules/tw-elements/dist/js/**/*.js',
   ],
   theme: {
     extend: {
       fontFamily: {
         mont: ['var(--font-mont)', ...fontFamily.sans],
+        Crim: ['Crimson_Pro'],
+        Quat: ['Quattrocento'],
       },
+
       colors: {
         dark: '#1b1b1b',
+        whitee: '#FFFFFF',
+        cardwhite: '#FCFCFC',
+        btncolor: '#79518C',
         light: '#f5f5f5',
         primary: '#B63E96', // 240,86,199
         primaryDark: '#58E6D9', // 80,230,217
@@ -44,7 +52,7 @@ module.exports = {
       lmg: { min: '1062px' },
       // => @media (min-width: 1062px) { ... }
 
-      mrd: { max: '915px' },
+      mrd: { max: '919px' },
       // => @media (max-width: 905px) { ... }
 
       md: { max: '1000px' },
@@ -58,6 +66,8 @@ module.exports = {
 
       xs: { max: '670px' },
       // => @media (max-width: 479px) { ... }
+
+      xms: { max: '500px' },
 
       xxs: { max: '400px' },
       // => @media (max-width: 375px) { ... }

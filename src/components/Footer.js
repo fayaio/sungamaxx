@@ -19,6 +19,8 @@ const Footer = () => {
         <Link href="/" className="md:pt-4">
           Sungamax Nigeria Ltd
         </Link>
+
+        <div className=""></div>
       </Layout>
     </footer>
   );
