@@ -13,7 +13,7 @@ const Footer = () => {
     "
     >
       <Layout
-        className="p-8 w-full  padding !flex !text-center! h-fit text-darkgrey bg-footerbg !items-center justify-between !self-center 
+        className="p-8 w-full  padding !flex !text-center! h-fit text-darkgrey  bg-gray-100 !items-center justify-between !self-center 
        text-pcolor  font-light text-sm  font-mont md:flex-col md:text-center sm:text-xs "
       >
         <div className="flex flex-col">

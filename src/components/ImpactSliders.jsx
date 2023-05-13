@@ -22,8 +22,7 @@ export default function ImpactSliders() {
         modules={[Navigation]}
         slidesPerView={1}
         loop={true}
-        autoplay={{ delay: 4000 }}
-        navigation
+        autoplay={{ delay: 3000 }}
       >
         <SwiperSlide className="mt-8">{Envslide()}</SwiperSlide>
         <SwiperSlide className="mt-8">{Socslide()}</SwiperSlide>
@@ -42,15 +41,17 @@ function Envslide() {
   };
   return (
     <div
-      className=" flex items-center  justify-between w-[85%] m-auto  h-[70vh]  bg-fixed bg-center bg-cover "
+      className=" flex items-center  justify-between w-[85%] m-auto  h-[70vh]  bg-fixed bg-center bg-cover
+      sm:w-[80%] sm:h-[50vh]
+       "
       style={bg}
     >
-      <div className="w-[60%]  h-fit bg-black/60 -mt-16 ">
+      <div className="w-[60%]  h-fit bg-black/60 sm:w-[70%] sm:-mt-0 ">
         <div className="text-left pt-16 pb-16 pl-6   xms:p-2">
-          <h2 className="text-white font-bold font-Crim text-3xl pb-2 xms:text-2xl">
+          <h2 className="text-white font-bold font-Crim text-3xl pb-2 sm:text-xl">
             Environmental Impact
           </h2>
-          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin xms:text-lg">
+          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin sm:text-sm">
             Protecting the environment for future generations is our
             responsibility...
           </p>
@@ -59,7 +60,7 @@ function Envslide() {
                    hover:text-whitee   drop-shadow-lg shadow-logo
                    mt-3 mrd:mt-4  "
           >
-            <Link href="/impact#environmental-impact " className=" ">
+            <Link href="/impact#environmental-impact " className="sm:text-xs">
               Read More
             </Link>
           </div>
@@ -75,15 +76,15 @@ function Socslide() {
   };
   return (
     <div
-      className=" flex items-center  justify-between w-[85%] m-auto h-[70vh]  bg-fixed bg-center bg-cover "
+      className="  sm:w-[80%] sm:h-[50vh] flex items-center  justify-between w-[85%] m-auto h-[70vh]  bg-fixed bg-center bg-cover "
       style={bg}
     >
-      <div className="w-[60%]  h-fit bg-black/60 ">
+      <div className="w-[60%]  h-fit bg-black/60  sm:w-[70%] sm:-mt-0  ">
         <div className="text-left pt-10 pb-10 pl-6   xms:p-2">
-          <h2 className="text-white font-bold font-Crim text-3xl pb-2 xms:text-2xl">
+          <h2 className="text-white font-bold font-Crim text-3xl pb-2  sm:text-xl">
             Socioeconomic Impact
           </h2>
-          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin xms:text-lg">
+          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin  sm:text-sm">
             SUNGAMAX has to adopt practical solutions that are tailored to the
             ...
           </p>
@@ -92,7 +93,7 @@ function Socslide() {
                    hover:text-whitee   drop-shadow-lg shadow-logo
                    mt-3 mrd:mt-4  "
           >
-            <Link href="/impact#socioeconomic-impact" className=" ">
+            <Link href="/impact#socioeconomic-impact" className="sm:text-xs ">
               Read More
             </Link>
           </div>
@@ -108,15 +109,15 @@ function Pplncul() {
   };
   return (
     <div
-      className=" flex items-center  justify-between w-[85%] m-auto  h-[70vh]  bg-fixed bg-center bg-cover "
+      className="  sm:w-[80%] sm:h-[50vh] flex items-center  justify-between w-[85%] m-auto  h-[70vh]  bg-fixed bg-center bg-cover "
       style={bg}
     >
-      <div className="w-[60%]  h-fit bg-black/60 ">
+      <div className="w-[60%]  h-fit bg-black/60 sm:w-[70%] sm:-mt-0  ">
         <div className="text-left pt-10 pb-10 pl-6   xms:p-2">
-          <h2 className="text-white font-bold font-Crim text-3xl pb-2 xms:text-2xl">
+          <h2 className="text-white font-bold font-Crim text-3xl pb-2 sm:text-xl">
             People And Culture
           </h2>
-          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin xms:text-lg">
+          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin  sm:text-sm">
             At SUNGAMAX, we recognise that people are at the core of our ability
             to achieve our mission.
           </p>
@@ -125,7 +126,7 @@ function Pplncul() {
                    hover:text-whitee   drop-shadow-lg shadow-logo
                    mt-3 mrd:mt-4  "
           >
-            <Link href="/impact#people&culture" className=" ">
+            <Link href="/impact#people&culture" className=" sm:text-xs">
               Read More
             </Link>
           </div>
@@ -141,15 +142,15 @@ function Hdr() {
   };
   return (
     <div
-      className=" flex items-center  justify-between w-[85%] m-auto  h-[70vh] bg-fixed bg-center bg-cover "
+      className="  sm:w-[80%] sm:h-[50vh] flex items-center  justify-between w-[85%] m-auto  h-[70vh] bg-fixed bg-center bg-cover "
       style={bg}
     >
-      <div className="w-[60%]  h-fit bg-black/60 ">
+      <div className="w-[60%]  h-fit bg-black/60  sm:w-[70%] sm:-mt-0 ">
         <div className="text-left pt-10 pb-10 pl-6   xms:p-2">
-          <h2 className="text-white font-bold font-Crim text-3xl pb-2 xms:text-2xl">
+          <h2 className="text-white font-bold font-Crim text-3xl pb-2 sm:text-xl">
             Human Capital Development
           </h2>
-          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin xms:text-lg">
+          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin  sm:text-sm">
             We value all our employees and are invested in helping them to grow,
             improve and...
           </p>
@@ -158,7 +159,10 @@ function Hdr() {
                    hover:text-whitee   drop-shadow-lg shadow-logo
                    mt-3 mrd:mt-4  "
           >
-            <Link href="/impact#human-capital-development" className=" ">
+            <Link
+              href="/impact#human-capital-development"
+              className="sm:text-xs"
+            >
               Read More
             </Link>
           </div>
@@ -174,15 +178,15 @@ function Divslide() {
   };
   return (
     <div
-      className=" flex items-center  justify-between w-[85%] m-auto  h-[70vh] bg-fixed bg-center bg-cover "
+      className=" sm:w-[80%] sm:h-[50vh] flex items-center  justify-between w-[85%] m-auto  h-[70vh] bg-fixed bg-center bg-cover "
       style={bg}
     >
-      <div className="w-[60%]  h-fit bg-black/60 ">
+      <div className="w-[60%]  h-fit bg-black/60  sm:w-[70%] sm:-mt-0 ">
         <div className="text-left pt-10 pb-10 pl-6   xms:p-2">
-          <h2 className="text-white font-bold font-Crim text-3xl pb-2 xms:text-2xl">
+          <h2 className="text-white font-bold font-Crim text-3xl pb-2 sm:text-xl">
             Diversity and Inclusion
           </h2>
-          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin xms:text-lg">
+          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin sm:text-sm">
             SUNGAMAX BUSINESSES are committed to empowering diverse voices in
             our organisation and...
           </p>
@@ -191,7 +195,7 @@ function Divslide() {
                    hover:text-whitee   drop-shadow-lg shadow-logo
                    mt-3 mrd:mt-4  "
           >
-            <Link href="/impact#diversity&inclusion" className=" ">
+            <Link href="/impact#diversity&inclusion" className="sm:text-xs">
               Read More
             </Link>
           </div>
@@ -207,15 +211,15 @@ function Eelide() {
   };
   return (
     <div
-      className=" flex items-center  justify-between w-[85%] m-auto  h-[70vh] bg-fixed bg-center bg-cover "
+      className=" sm:w-[80%] sm:h-[50vh] flex items-center  justify-between w-[85%] m-auto  h-[70vh] bg-fixed bg-center bg-cover "
       style={bg}
     >
-      <div className="w-[60%]  h-fit bg-black/60 ">
+      <div className="w-[60%]  h-fit bg-black/60  sm:w-[70%] sm:-mt-0  ">
         <div className="text-left pt-10 pb-10 pl-6   xms:p-2">
-          <h2 className="text-white font-bold font-Crim text-3xl pb-2 xms:text-2xl">
+          <h2 className="text-white font-bold font-Crim text-3xl pb-2 sm:text-xl">
             Economic Empowerment
           </h2>
-          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin xms:text-lg">
+          <p className=" text-white/80  font-Quat text-lg w-[95%] font-thin  sm:text-sm">
             From bringing traditional offline businesses online to providing our
             partners with more income opportunities...
           </p>
@@ -224,7 +228,7 @@ function Eelide() {
                    hover:text-whitee   drop-shadow-lg shadow-logo
                    mt-3 mrd:mt-4  "
           >
-            <Link href="/impact#economic-empowerment" className=" ">
+            <Link href="/impact#economic-empowerment" className="sm:text-xs">
               Read More
             </Link>
           </div>
