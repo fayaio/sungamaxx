@@ -22,12 +22,10 @@ const impacts = () => {
           Impact
         </h6>
 
-        <ImpactSliders />
-
         {/* Environmental Impact */}
         <section
           id="environmental-impact"
-          className=" flex items-center justify-center mt-16  h-[60vh]  bg-fixed bg-center bg-cover envsec-img "
+          className=" flex items-center justify-center mt-16  h-[60vh]  bg-fixed bg-center bg-cover envsec-img  "
         >
           <div className="w-[95%]  h-fit bg-white/75">
             <div className="text-left p-10 m-auto  xms:p-8 xxs:p-2">

@@ -5,16 +5,16 @@ import contdetailsimg from '../../public/images/svgs/contdetailsimg.svg';
 import ContactForm from '@/components/ContactForm';
 const contact = () => {
   const bg = {
-    background: "url('/images/svgs/contactimg.svg')no-repeat",
+    background: "url('/images/svgs/contactimg.svg')",
   };
   return (
     <>
       <div
-        className=" flex items-center  justify-center w-full  h-[70vh]   "
+        className=" flex items-center  justify-center  h-[70vh]   "
         style={bg}
       >
-        <div className="w-[50%]  h-fit bg-black/50  ">
-          <div className="text-center p-14  xms:p-2">
+        <div className="w-[50%]  h-fit bg-black/50  sm:w-[80%]  ">
+          <div className="text-center p-14  xms:p-10 ">
             <h2 className="text-white font-bold font-Crim text-4xl pb-2 xms:text-2xl">
               Contact Us
             </h2>
@@ -25,12 +25,12 @@ const contact = () => {
         </div>
       </div>
 
-      <div className="mt-8 p-12 flex  m-auto sm:flex-col">
+      <div className="mt-8 p-12 flex  m-auto sm:flex-col sm:p-5 ">
         <div className=" w-[75%]  sm:w-[100%]">
-          <h1 className=" text-logo font-bold font-Crim text-4xl">
+          <h1 className=" text-logo font-bold font-Crim text-4xl sm:text-3xl sm:text-left">
             Make An Enquiry
           </h1>
-          <p className="font-Quat mt-4 font-semibold w-[85%]">
+          <p className="font-Quat mt-4 font-semibold w-[85%] sm:w-[100%]">
             If you have got any requirements in mind please CALL US on
             +2348127343468 to talk to one of our training team. Alternatively,
             you can EMAIL US at contact@sungamax.com or complete the form below

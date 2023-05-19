@@ -12,7 +12,7 @@ const Footer = () => {
     
     "
     >
-      <Layout
+      <div
         className="p-8 w-full  padding !flex !text-center! h-fit text-darkgrey  bg-gray-100 !items-center justify-between !self-center 
        text-pcolor  font-light text-sm  font-mont md:flex-col md:text-center sm:text-xs "
       >
@@ -30,7 +30,7 @@ const Footer = () => {
           <AiFillInstagram />
           <AiFillTwitterCircle />
         </div>
-      </Layout>
+      </div>
     </footer>
   );
 };

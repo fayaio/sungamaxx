@@ -43,7 +43,7 @@ const DaisyNavBar = () => {
           <li className="">
             <Link
               href={'/contact'}
-              className="py-7 px-3 inline-block uppercase"
+              className="py-8 px-3 inline-block uppercase"
             >
               Contact
             </Link>

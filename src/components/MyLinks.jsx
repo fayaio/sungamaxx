@@ -1,6 +1,7 @@
 export const links = [
   {
     name: 'About',
+    link: '/about',
     submenu: true,
     sublinks: [
       {
@@ -27,6 +28,7 @@ export const links = [
   },
   {
     name: 'Business Division',
+    link: '/',
     submenu: true,
     sublinks: [
       {
@@ -57,6 +59,7 @@ export const links = [
   },
   {
     name: 'Impact',
+    link: '/impact',
     submenu: true,
     sublinks: [
       {

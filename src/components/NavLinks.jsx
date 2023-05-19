@@ -18,7 +18,8 @@ const NavLinks = () => {
                 heading !== link.name ? setHeading(link.name) : setHeading('')
               }
             >
-              {link.name}
+              <Link href={link.link}>{link.name}</Link>
+
               <span className="text-xl msd:hidden inline">
                 <ion-icon
                   name={`${
