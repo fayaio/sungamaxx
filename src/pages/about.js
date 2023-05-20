@@ -251,7 +251,7 @@ const about = () => {
         <section id="values" className="bg-white mt-10  mb-10">
           <div className=" flex flex-col items-left  w-[85%] lg:w-[90%] m-auto sm:flex-col sm:w-[100%] sm:m-0">
             <div className="">
-              <h6 className=" pb-9 font-Crim uppercase text-[46px] text-logo font-black lg:text-[40px] mrd:text-[30px] sm:text-4xl xs:text-3xl xxs:text-2xl">
+              <h6 className=" pb-9 font-Crim uppercase text-[46px] text-logo font-black lg:text-[40px] mrd:text-[30px] sm:text-4xl sm:text-center xs:text-3xl xxs:text-2xl ">
                 Values
               </h6>
             </div>

@@ -65,16 +65,12 @@ export const links = [
       {
         sublink: [
           {
-            name: 'Environmental Impact',
-            link: '/impact#environmental-impact',
-          },
-          {
             name: 'Socioeconomic Impact',
             link: '/impact#socioeconomic-impact',
           },
           {
-            name: 'People And Culture',
-            link: '/impact#people&culture',
+            name: 'Environmental Impact',
+            link: '/impact#environmental-impact',
           },
           {
             name: 'Human Capital Development',
@@ -87,6 +83,10 @@ export const links = [
           {
             name: 'Economic Empowerment',
             link: '/impact#economic-empowerment',
+          },
+          {
+            name: 'People And Culture',
+            link: '/impact#people&culture',
           },
         ],
       },

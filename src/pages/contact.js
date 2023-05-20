@@ -3,17 +3,20 @@ import Link from 'next/link';
 import Image from 'next/image';
 import contdetailsimg from '../../public/images/svgs/contdetailsimg.svg';
 import ContactForm from '@/components/ContactForm';
+import { LazyLoadComponent } from 'react-lazyload';
+
 const contact = () => {
-  const bg = {
-    background: "url('/images/svgs/contactimg.svg')",
-  };
   return (
     <>
-      <div
-        className=" flex items-center  justify-center  h-[70vh]   "
-        style={bg}
-      >
-        <div className="w-[50%]  h-fit bg-black/50  sm:w-[80%]  ">
+      <div className=" flex items-center  justify-center w-full  h-[70vh] relative   ">
+        <div
+          className=" absolute inset-0 w-full h-full bg-cover bg-no-repeat object-cover"
+          style={{
+            backgroundImage: `url('/images/svgs/contactimg.svg')`,
+          }}
+        ></div>
+
+        <div className="w-[50%] absolute  h-fit bg-black/50  sm:w-[80%]  ">
           <div className="text-center p-14  xms:p-10 ">
             <h2 className="text-white font-bold font-Crim text-4xl pb-2 xms:text-2xl">
               Contact Us
@@ -25,12 +28,12 @@ const contact = () => {
         </div>
       </div>
 
-      <div className="mt-8 p-12 flex  m-auto sm:flex-col sm:p-5 ">
+      <div className="mt-8 p-12 flex  m-auto sm:flex-col sm:p-5">
         <div className=" w-[75%]  sm:w-[100%]">
-          <h1 className=" text-logo font-bold font-Crim text-4xl sm:text-3xl sm:text-left">
+          <h1 className=" text-logo font-bold font-Crim text-4xl sm:text-3xl">
             Make An Enquiry
           </h1>
-          <p className="font-Quat mt-4 font-semibold w-[85%] sm:w-[100%]">
+          <p className="font-Quat mt-4 font-semibold w-[85%] sm:w-[100%] ">
             If you have got any requirements in mind please CALL US on
             +2348127343468 to talk to one of our training team. Alternatively,
             you can EMAIL US at contact@sungamax.com or complete the form below
@@ -40,11 +43,11 @@ const contact = () => {
         </div>
 
         <div className=" w-[35%] sm:w-[100%]">
-          <div className=" bg-cardwhite shadow-xl shadow-stone-200  ">
+          <div className=" bg-cardwhite shadow-xl shadow-stone-200 flex flex-col ">
             <div className="">
               <Image
                 src={contdetailsimg}
-                alt="Sungamax About"
+                alt="Sungamax Contact"
                 className="m-auto"
                 priority
               />

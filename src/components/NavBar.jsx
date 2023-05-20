@@ -38,12 +38,12 @@ const DaisyNavBar = () => {
           </button>
         </div>
 
-        <ul className=" flex mr-12  gap-8 text-logo text-[15.7px]  md:hidden font-semibold">
+        <ul className=" flex mr-12 !font-semi-bold gap-8 text-logo text-[15.7px]  md:hidden font-semibold">
           <NavLinks />
           <li className="">
             <Link
               href={'/contact'}
-              className="py-8 px-3 inline-block uppercase"
+              className="py-[35px] px-3 inline-block uppercase hover:text-lightPurple"
             >
               Contact
             </Link>

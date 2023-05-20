@@ -6,7 +6,6 @@ html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
 }
-
 .envsec-img {
   background-image: url('../../public/images/svgs/envsection.svg');
   object-fit: cover;

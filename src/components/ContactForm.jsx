@@ -63,7 +63,7 @@ const ContactForm = () => {
 
   return (
     <Form
-      className="w-[100%] pt-12 !mr-10 flex flex-col   place-items-start  items-stretch "
+      className="w-[100%] sm:w-[80%] pt-12 !mr-10 flex flex-col   place-items-start  items-stretch "
       {...formItemLayout}
       form={form}
       name="register"
