@@ -61,6 +61,8 @@ const DaisyNavBar = () => {
           w-full
           h-fit
           
+           font-semibold
+          
           py-24 pl-5 duration-500 ${isOpen ? 'left-0' : 'left-[-100%]'}
         `}
         >
@@ -69,6 +71,7 @@ const DaisyNavBar = () => {
             <Link
               href={'/contact'}
               className="py-7 px-3 inline-block uppercase sm:!text-base "
+              onClick={handleClick}
             >
               Contact
             </Link>

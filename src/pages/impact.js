@@ -64,7 +64,7 @@ const impacts = () => {
           className="flex items-center justify-center h-[80vh] relative   "
         >
           <div
-            className=" absolute inset-0 w-full h-full bg-cover bg-scroll bg-no-repeat object-cover"
+            className=" absolute inset-0 w-full h-full bg-cover bg-no-repeat object-cover"
             style={{
               backgroundImage: `url('/images/svgs/envsection.svg')`,
             }}
