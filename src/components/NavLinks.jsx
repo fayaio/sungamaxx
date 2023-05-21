@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { links } from './MyLinks';
 
-const NavLinks = () => {
+const NavLinks = ({ onSubMenuClick }) => {
   const [heading, setHeading] = useState('');
   return (
     <>
@@ -84,6 +84,7 @@ const NavLinks = () => {
                       <Link
                         href={slink.link}
                         className="text-base  hover:text-white "
+                        onClick={onSubMenuClick}
                       >
                         {slink.name}
                       </Link>

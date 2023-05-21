@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import ImpactSliders from '@/components/ImpactSliders';
 import Link from 'next/link';
 
@@ -10,11 +11,7 @@ const impacts = () => {
         <title>Sungamax | Impact</title>
         <meta
           name="description"
-          content="Who We Are -To be the leading force for building and developing sustainable and impactful businesses"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          content="Unveiling Environmental, Socioeconomic, Economic, and Cultural Influences"
         />
       </Head>
 
@@ -44,18 +41,18 @@ const impacts = () => {
         {/* Socioeconomic impact */}
         <section
           id="socioeconomic-impact"
-          className=" flex items-center justify-center h-[60vh]  bg-fixed bg-center bg-cover  bg-light/40  "
+          className=" flex items-center justify-center h-[80vh]  bg-fixed bg-center bg-cover  bg-light/40  "
         >
-          <div className="w-[95%]  h-fit bg-gradient-to-r from-gray-50 to-violet-50 ... shadow-md shadow-purple-100 p-10 m-auto">
-            <div className="text-center p-10 m-auto  xms:p-8 xxs:p-2">
+          <div className="w-[95%] flex  h-[90%]  bg-gradient-to-r from-gray-50 to-violet-50 ... shadow-md shadow-purple-100  m-auto">
+            <div className="text-center items-center justify-center p-10 m-auto  xms:p-8 xxs:p-2">
               <h2 className="text-logo font-bold font-Crim text-3xl pb-4 mrd:text-2xl xxs:text-xl xxs:pb-1">
                 Socioeconomic Impact
               </h2>
               <p className=" text-black font-Crim text-xl w-[95%] font-medium mrd:text-base">
-                Protecting the environment for future generations is our
-                responsibility. We want to protect the environment to ensure
-                economic and social stability within our communities for
-                generations to come.
+                SUNGAMAX has to adopt practical solutions that are tailored to
+                the needs and barriers existing in the region. Providing
+                financial and community support for our partners and
+                communities.
               </p>
             </div>
           </div>
@@ -64,9 +61,16 @@ const impacts = () => {
         {/* Environmental Impact */}
         <section
           id="environmental-impact"
-          className=" envsec-img flex items-center justify-center h-[60vh]  bg-fixed bg-center bg-cover  "
+          className="flex items-center justify-center h-[80vh] relative   "
         >
-          <div className="w-[95%]  p-10 m-auto h-fit bg-white/75">
+          <div
+            className=" absolute inset-0 w-full h-full bg-cover bg-scroll bg-no-repeat object-cover"
+            style={{
+              backgroundImage: `url('/images/svgs/envsection.svg')`,
+            }}
+          ></div>
+
+          <div className="w-[95%]  absolute p-11 m-auto h-fit bg-white/75">
             <div className="text-center p-10 m-auto  xms:p-8 xxs:p-2">
               <h2 className="text-logo font-bold font-Crim text-3xl pb-4 mrd:text-2xl xxs:text-xl xxs:pb-1">
                 Environmental Impact
@@ -84,10 +88,10 @@ const impacts = () => {
         {/*Human Capital Development*/}
         <section
           id="human-capital-development"
-          className=" flex items-center justify-center h-[60vh]  bg-fixed bg-center bg-cover  bg-light/40 "
+          className=" flex items-center justify-center h-[80vh]  bg-fixed bg-center bg-cover  bg-light/40 "
         >
-          <div className="w-[95%]  h-fit bg-gradient-to-r from-gray-50 to-violet-50 ... shadow-md shadow-purple-100 p-10 m-auto">
-            <div className="text-center p-10 m-auto  xms:p-8 xxs:p-2">
+          <div className="w-[95%] flex h-[90%] bg-gradient-to-r from-gray-50 to-violet-50 ... shadow-md shadow-purple-100 p-10 m-auto">
+            <div className="text-center items-center justify-center  p-11 m-auto  xms:p-8 xxs:p-2">
               <h2 className="text-logo font-bold font-Crim text-3xl pb-4 mrd:text-2xl xxs:text-xl xxs:pb-1">
                 Human Capital Development
               </h2>
@@ -103,9 +107,15 @@ const impacts = () => {
         {/* Diversity and Inclusion*/}
         <section
           id="diversity&inclusion"
-          className=" flex items-center justify-center  h-[60vh]  bg-fixed bg-center bg-cover  diversec-img  "
+          className=" flex items-center justify-center  h-[80vh] relative "
         >
-          <div className="w-[95%]  h-fit bg-white/75 p-10 m-auto">
+          <div
+            className=" absolute inset-0 w-full h-full bg-cover bg-no-repeat object-cover"
+            style={{
+              backgroundImage: `url('/images/svgs/diversitysection.svg')`,
+            }}
+          ></div>
+          <div className="w-[95%]  absolute h-fit bg-white/75 p-11 m-auto">
             <div className="text-center p-10 m-auto  xms:p-8 xxs:p-2">
               <h2 className="text-logo font-bold font-Crim text-3xl pb-4 mrd:text-2xl xxs:text-xl xxs:pb-1">
                 Diversity and Inclusion
@@ -122,10 +132,10 @@ const impacts = () => {
         {/* Economic Empowerment*/}
         <section
           id="economic-empowerment"
-          className=" flex items-center justify-center h-[60vh]  mb-12 bg-fixed bg-center bg-cover  bg-light/40 "
+          className=" flex items-center justify-center h-[80vh]  bg-fixed bg-center bg-cover  bg-light/40 "
         >
-          <div className="w-[95%]  h-fit bg-gradient-to-r from-gray-50 to-violet-50 ... shadow-md shadow-purple-100 p-10 m-auto">
-            <div className="text-center p-10 m-auto  xms:p-8 xxs:p-2">
+          <div className="w-[95%] flex h-[100%] bg-gradient-to-r from-gray-50 to-violet-50 ... shadow-md shadow-purple-100 p-11 m-auto">
+            <div className="text-center items-center justify-center  p-10 m-auto  xms:p-8 xxs:p-2">
               <h2 className="text-logo font-bold font-Crim text-3xl pb-4 mrd:text-2xl xxs:text-xl xxs:pb-1">
                 Economic Empowerment
               </h2>
@@ -142,9 +152,15 @@ const impacts = () => {
         {/* People And Culture */}
         <section
           id="people&culture"
-          className="pplsec-img  flex items-center justify-center  h-[60vh]  bg-fixed bg-center bg-cover "
+          className=" flex items-center justify-center  h-[80vh]  relative"
         >
-          <div className="w-[95%]  h-fit bg-white/75 p-10 m-auto">
+          <div
+            className=" absolute inset-0 w-full h-full bg-cover bg-no-repeat object-cover"
+            style={{
+              backgroundImage: `url('/images/svgs/pplnculsection.svg')`,
+            }}
+          ></div>
+          <div className="w-[95%] absolute  h-fit bg-white/75 p-11 m-auto">
             <div className="text-center p-10 m-auto  xms:p-8 xxs:p-2">
               <h2 className="text-logo font-bold font-Crim text-3xl pb-4 mrd:text-2xl xxs:text-xl xxs:pb-1">
                 People And Culture

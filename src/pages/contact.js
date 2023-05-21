@@ -1,13 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import Image from 'next/image';
 import contdetailsimg from '../../public/images/svgs/contdetailsimg.svg';
 import ContactForm from '@/components/ContactForm';
-import { LazyLoadComponent } from 'react-lazyload';
 
 const contact = () => {
   return (
     <>
+      <Head>
+        <title>Sungamax | Contact</title>
+        <meta
+          name="description"
+          content="We’re a Friendly Bunch So Please Get In Touch!"
+        />
+      </Head>
       <div className=" flex items-center  justify-center w-full  h-[70vh] relative   ">
         <div
           className=" absolute inset-0 w-full h-full bg-cover bg-no-repeat object-cover"

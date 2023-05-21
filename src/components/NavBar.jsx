@@ -64,7 +64,7 @@ const DaisyNavBar = () => {
           py-24 pl-5 duration-500 ${isOpen ? 'left-0' : 'left-[-100%]'}
         `}
         >
-          <NavLinks />
+          <NavLinks onSubMenuClick={handleClick} />
           <li className="">
             <Link
               href={'/contact'}

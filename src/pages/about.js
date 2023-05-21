@@ -21,7 +21,7 @@ const about = () => {
         <title>Sungamax | About Us</title>
         <meta
           name="description"
-          content="Who We Are -To be the leading force for building and developing sustainable and impactful businesses"
+          content="Your Reliable Partner in Developing Businesses and People."
         />
         <link
           rel="stylesheet"
