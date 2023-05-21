@@ -22,14 +22,9 @@ const Footer = () => {
             <Link href={''}> Cookie Policy</Link>|
             <Link href={''}> Refund Policy</Link>
           </div>
-          <span className="pt-4">Sungamax Nigeria Ltd Copyright&copy; </span>
         </div>
 
-        <div className="flex gap-3 text-xl md:pt-4">
-          <FaFacebook />
-          <AiFillInstagram />
-          <AiFillTwitterCircle />
-        </div>
+        <span className="pt-4">Sungamax Nigeria Ltd Copyright&copy; </span>
       </div>
     </footer>
   );
