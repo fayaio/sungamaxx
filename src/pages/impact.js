@@ -28,8 +28,8 @@ const impacts = () => {
           <h6 className=" font-Crim w-[100%] text-center   uppercase text-[46px] text-logo font-black lg:text-[40px] mrd:text-4xl  xms:text-2xl  xms:pt-6">
             Impact
           </h6>
-          <p className=" text-btncolor/80 text-center w-[65%] pt-5 pb-3  xms:pt-6  xms:pb-9   sm:w-[82%] xms:w-[89%] m-auto font-Quat font-light  text-xl   xms:text-[18px]">
-            Unveiling Environmental, socioeconomic, Economic empowerment,
+          <p className=" text-btncolor/80 text-center w-[65%] pt-5 pb-3  xms:pt-6  xms:pb-9   sm:w-[82%] xms:w-[94%] m-auto font-Quat font-light  text-xl   xms:text-[17px]">
+            Unveiling Environmental, Socioeconomic, Economic Empowerment,
             Culture & Diversity and Human Capital Development.
           </p>
           <div className=" w-[100%] h-[100%] m-auto pb-12 xms:pb-0  ">
