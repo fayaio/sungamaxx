@@ -1,11 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import ImpactSliders from '@/components/ImpactSliders';
 import Link from 'next/link';
-import contdetailsimg from '../../public/images/svgs/contdetailsimg.svg';
-
-import impactimg from '../../public/images/svgs/impactimg.svg';
 
 import envsection from '../../public/images/svgs/envsection.svg';
 import socioecon from '../../public/images/svgs/socioecon.svg';
@@ -28,11 +24,11 @@ const impacts = () => {
 
       <main className="bg-white ">
         {/* Banner */}
-        <div className=" bg-white self-center  w-full  h-[89vh] xms:h-[70vh]  xxs:h-[60vh]   mt-3 pb-8 ">
-          <h6 className=" font-Crim w-[100%] text-center  uppercase text-[46px] text-logo font-black lg:text-[40px] mrd:text-4xl  xms:text-2xl ">
+        <div className=" bg-white self-center  w-full  h-[89vh] xms:h-[90vh]  xxs:h-[75vh]   mt-3 pb-8   ">
+          <h6 className=" font-Crim w-[100%] text-center   uppercase text-[46px] text-logo font-black lg:text-[40px] mrd:text-4xl  xms:text-2xl  xms:pt-6">
             Impact
           </h6>
-          <p className=" text-btncolor/80 text-center w-[65%] pt-5 pb-3   xms:pb-5 xms:pt-3    sm:w-[82%] xms:w-[89%] m-auto font-Quat font-light  text-xl   xms:text-sm">
+          <p className=" text-btncolor/80 text-center w-[65%] pt-5 pb-3  xms:pt-6  xms:pb-9   sm:w-[82%] xms:w-[89%] m-auto font-Quat font-light  text-xl   xms:text-[18px]">
             Unveiling Environmental, socioeconomic, Economic empowerment,
             Culture & Diversity and Human Capital Development.
           </p>
@@ -40,7 +36,7 @@ const impacts = () => {
             <Image
               src={impbanner}
               alt="Sungamax Environmental Impact"
-              className="w-[90%] h-[80%]  m-auto    xms:h-fit "
+              className="w-[90%] h-[80%]  m-auto   xms:w-[97%] xms:h-fit "
               width={100}
               height={100}
               priority
@@ -48,7 +44,7 @@ const impacts = () => {
           </div>
         </div>
 
-        <div className="bg-light pt-10">
+        <div className="bg-light pt-10 ">
           {/* Environmental Impact */}
           <section
             id="environmental-impact"
