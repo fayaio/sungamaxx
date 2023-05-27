@@ -20,7 +20,7 @@ module.exports = {
       colors: {
         dark: '#1b1b1b',
         whitee: '#FFFFFF',
-        cardwhite: '#FCFCFC',
+        cardwhite: '#f3f3f3',
         btncolor: '#79518C',
         light: '#f5f5f5',
         primary: '#B63E96', // 240,86,199
@@ -52,8 +52,13 @@ module.exports = {
       lmg: { min: '1062px' },
       // => @media (min-width: 1062px) { ... }
 
+      lrg: { max: '1060px' },
+      // => @media (min-width: 1062px) { ... }
       mrd: { max: '919px' },
       // => @media (max-width: 905px) { ... }
+
+      mrdt: { max: '900px' },
+      // => @media (max-width: 900px) { ... }
 
       md: { max: '1000px' },
       // => @media (max-width: 767px) { ... }
